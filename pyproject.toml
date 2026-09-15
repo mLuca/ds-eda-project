@@ -1,0 +1,18 @@
+[project]
+name = "ds-eda-project-template"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "missingno>=0.5.2",
+    "plotly>=6.8.0",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "seaborn>=0.13.2",
+    "sqlalchemy>=2.0.50",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "nbformat>=5.10.4",
+]
