@@ -15,7 +15,7 @@ By the end of this repository, you should be able to:
 
 ## Learning Path
 
-Work through the files in order. Start with the assignment to understand the goal, follow the workflow as your guide, fetch the data, then run your analysis in the EDA notebook.
+Work through the files in order. Start with the assignment to understand the goal, follow the workflow as your guide, fetch the data, clean it, then run your analysis in the EDA notebook.
 
 > [!TIP]
 > The data lives in the **eda** schema of the database and is split across two tables. Before fetching anything in code, connect with DBeaver and explore that schema: inspect both tables, check [**Column Names**](column_names.md) for what each field means, and work out how to join them. Once you have a working `JOIN`, use it as the query in [**03 - Fetching the Data**](03_fetching_the_data_eda.ipynb) to load the combined dataset into pandas.
@@ -25,7 +25,8 @@ Work through the files in order. Start with the assignment to understand the goa
 | [**01 - Assignment**](01_assignment.md)                      | The project brief: the dataset, your tasks, deliverables, and the list of clients to choose from.                        |
 | [**02 - Workflow**](02_workflow.md)                          | A recommended EDA workflow, from understanding and questioning the data through cleaning, relationships, and presenting. |
 | [**03 - Fetching the Data**](03_fetching_the_data_eda.ipynb) | Connect to the PostgreSQL database with psycopg2 and SQLAlchemy, then pull the data into a pandas DataFrame.             |
-| [**04 - EDA**](04_eda.ipynb)                                 | Starter notebook for your exploratory data analysis.                                                                     |
+| [**04 - Data Cleaning**](04_data_cleaning.ipynb)             | Goes through each column, handling missing values, outliers, and inconsistent values to prepare the data for analysis.  |
+| [**05 - EDA**](05_eda.ipynb)                                 | Exploratory data analysis on the cleaned dataset.                                                                        |
 | [**Column Names**](column_names.md)                          | Data dictionary describing each column in the King County housing dataset.                                               |
 
 ### Additional Folders and Files
