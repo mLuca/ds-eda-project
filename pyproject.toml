@@ -3,6 +3,8 @@ name = "ds-eda-project-template"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "esda>=2.10.0",
+    "libpysal>=4.15.0",
     "missingno>=0.5.2",
     "plotly>=6.8.0",
     "psycopg2-binary>=2.9.12",
