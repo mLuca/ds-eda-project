@@ -20,23 +20,25 @@ Work through the files in order. Start with the assignment to understand the goa
 > [!TIP]
 > The data lives in the **eda** schema of the database and is split across two tables. Before fetching anything in code, connect with DBeaver and explore that schema: inspect both tables, check [**Column Names**](column_names.md) for what each field means, and work out how to join them. Once you have a working `JOIN`, use it as the query in [**03 - Fetching the Data**](03_fetching_the_data_eda.ipynb) to load the combined dataset into pandas.
 
-| File / Folder                                                   | Description                                                                                                              |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| File / Folder                                                | Description                                                                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | [**01 - Assignment**](01_assignment.md)                      | The project brief: the dataset, your tasks, deliverables, and the list of clients to choose from.                        |
 | [**02 - Workflow**](02_workflow.md)                          | A recommended EDA workflow, from understanding and questioning the data through cleaning, relationships, and presenting. |
 | [**03 - Fetching the Data**](03_fetching_the_data_eda.ipynb) | Connect to the PostgreSQL database with psycopg2 and SQLAlchemy, then pull the data into a pandas DataFrame.             |
-| [**04 - Data Cleaning**](04_data_cleaning.ipynb)             | Goes through each column, handling missing values, outliers, and inconsistent values to prepare the data for analysis.  |
-| [**05 - EDA**](05_eda.ipynb)                                 | Exploratory data analysis on the cleaned dataset.                                                                        |
+| [**04 - Data Cleaning**](04_data_cleaning.ipynb)             | The data cleaning process. Run this to get the cleaned dataset used in the EDA                                           |
+| [**05 - EDA**](05_eda.ipynb)                                 | The exploratory data analysis on the cleaned dataset.                                                                    |
 | [**Column Names**](column_names.md)                          | Data dictionary describing each column in the King County housing dataset.                                               |
 
 ### Additional Folders and Files
 
-| File / Folder                           | Description                                                                                    |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [**Data**](data/)                    | Where you save the dataset CSV. The folder is tracked, but its data files are kept out of git. |
-| [**.env.example**](.env.example)     | Template for the database credentials. Copy it to `.env` and fill in your values.            |
-| [**pyproject.toml**](pyproject.toml) | Project configuration and dependencies.                                                        |
-| [**uv.lock**](uv.lock)               | Dependency lock file.                                                                          |
+| File / Folder                                           | Description                                                                                                              |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [**Data**](data/)                                       | Where you save the dataset CSV. The folder is tracked, but its data files are kept out of git.                           |
+| [**.env.example**](.env.example)                        | Template for the database credentials. Copy it to `.env` and fill in your values.                                        |
+| [**pyproject.toml**](pyproject.toml)                    | Project configuration and dependencies.                                                                                  |
+| [**uv.lock**](uv.lock)                                  | Dependency lock file.                                                                                                    |
+| [**Client presentation**](client_data/Presentation.pdf) | The presentation for the client.                                                                                         |
+| [**Client data**](client_data/candidates_rated.csv)     | The resulting data for the candidates. Enriched with columns used for the scoring + distance to Seattle for information. |
 
 ## Setup
 
@@ -56,6 +58,7 @@ When creating the repository:
 
 > [!IMPORTANT]
 > If you are working in pairs or groups, only **one person** should complete this step.
+
 ---
 
 ### 2. Add Collaborators (Pairs/Groups Only)

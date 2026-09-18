@@ -13,8 +13,8 @@ analysis techniques and presentation of results to a client.
 - The description of the column names can be found in the [`column_names.md`](column_names.md) file.
 - The column names may NOT be clear at times:
 
->[!NOTE]
->In the real world we will run into similar challenges. We would then go ask our business clients for more information. In this case, let us assume our business client who would give us information, left the company. Meaning we would have to identify and look up what each column names might actually mean. (google is your friend ;)
+> [!NOTE]
+> In the real world we will run into similar challenges. We would then go ask our business clients for more information. In this case, let us assume our business client who would give us information, left the company. Meaning we would have to identify and look up what each column names might actually mean. (google is your friend ;)
 
 ## The Tasks
 
@@ -22,13 +22,13 @@ analysis techniques and presentation of results to a client.
 2. Through EDA/statistical analysis above please come up with **AT LEAST 3 insights** regarding the overall data. One should be geographical.
 3. In addition also come up with **AT LEAST 3 recommendations** for your client.
 
->[!NOTE]
->You can take either the perspective of a buyer or a seller. Choose a client from the list at the end of this file.
+> [!NOTE]
+> You can take either the perspective of a buyer or a seller. Choose a client from the list at the end of this file.
 
 ## The Deliverables
 
 0. **New repository** from [template](https://github.com/neuefische/ds-eda-project-template)
-1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](04_eda.ipynb).
+1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](05_eda.ipynb).
 2. An **updated and organized README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 3. A **short Keynote/PowerPoint/Google Slides/Jupyter slides presentation** giving a **high-level overview** of your methodology and recommendations for **non-technical clients**. The duration of the presentation should be **10 minutes**, then the discussion will continue for 5 minutes. Also put your slides (delivered as a PDF export) on Github to get a well-rounded project. **Do not present using your jupyter notebook!**
 
@@ -36,8 +36,8 @@ analysis techniques and presentation of results to a client.
 
 - Please choose a client.
 
->[!NOTE]
->As these clients are made up (any resemblance to present people is absolutely random), please make assumptions about answers they would give to your questions. (i.e. How do you define a rich neighborhood? take the zipcodes with most houses in upper 10% percentile..). Whatever assumptions you make, please write them explicitly in your presentation and notebook.
+> [!NOTE]
+> As these clients are made up (any resemblance to present people is absolutely random), please make assumptions about answers they would give to your questions. (i.e. How do you define a rich neighborhood? take the zipcodes with most houses in upper 10% percentile..). Whatever assumptions you make, please write them explicitly in your presentation and notebook.
 
 | Name                | Client | Characteristics                                                                                                                                                                      |
 | ------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
